@@ -1,0 +1,56 @@
+# ======================
+# 编译输出文件
+# ======================
+*.exe
+*.dll
+*.lib
+*.obj
+*.pdb
+*.ilk
+*.exp
+*.o
+*.a
+
+# ======================
+# Visual Studio 相关
+# ======================
+*.sln
+*.vcxproj
+*.vcxproj.user
+*.vcxproj.filters
+*.ipch
+*.aps
+*.ncb
+*.sdf
+*.opensdf
+*.suo
+*.VC.db
+*.VC.opendb
+Debug/
+Release/
+x64/
+ipch/
+
+# ======================
+# CLion / CMake 相关
+# ======================
+.cmake/
+CMakeFiles/
+CMakeCache.txt
+cmake-build-*/
+Makefile
+install_manifest.txt
+compile_commands.json
+
+# ======================
+# 操作系统缓存文件
+# ======================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ======================
+# 其他
+# ======================
+.idea/              # JetBrains IDE 设置文件
+.vscode/            # VSCode 配置文件
